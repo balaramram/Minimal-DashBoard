@@ -5,6 +5,8 @@ import { useState } from "react"
 import { ToastContainer, toast } from "react-toastify"
 import { useNavigate } from 'react-router-dom'
 import {useAuth} from "../Login_authentication/AuthContext"
+import login_image from "../../assets/png/Login-img.png"
+import i_icon from "../../assets/png/i_icon.png"
 
 const USERNAME = "minimals";
 const PASSWORD = "2Minimal";
@@ -35,7 +37,7 @@ const Login = () => {
             <div className="col-span-1 bg-sky-50 h-screen flex flex-col justify-center items-center text-black">
                 <p className="font-bold text-3xl pb-3">Hi, Welcome back</p>
                 <p>More effectively with optimized workflows.</p>
-                <img className="p-10 size-100" src="/src/assets/png/Login-img.png"/>
+                <img className="p-10 size-100" src={login_image} />
             </div>
             </div>
 
@@ -48,7 +50,7 @@ const Login = () => {
                     </div>
                     <div className="flex flex-col lg:w-max">
                         <div className="flex items-center justify-center mb-4  bg-blue-200 px-2 rounded-md py-3">
-                            <img className="size-6" src="/src/assets/png/i_icon.png"/>
+                            <img className="size-6" src={i_icon}  />
                             <p className="ms-3 items-center flx justify-center text-sm">Use <span className="font-medium">demo@minimals.cc</span> with password<span className="font-medium"> @2Minimal</span></p>
                         </div>
                         
