@@ -2,7 +2,7 @@ import React from 'react'
 import microsoft from "../../../assets/svg/microsoft.svg"
 import opera from "../../../assets/svg/opera.svg"
 import adobe from "../../../assets/svg/adobe.svg"
-import joplin from "../../../assets/png/joplin_icon.png"
+import joplin from "../../../assets/png/Joplin_icon.png"
 import topaz from "../../../assets/png/topaz_icon.jpg"
 import user_1 from "../../../assets/avatar/user_1.webp"
 import user_2 from "../../../assets/avatar/user_2.webp"
