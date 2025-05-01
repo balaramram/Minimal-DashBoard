@@ -1,39 +1,58 @@
+import app_icon from "../assets/svg/app_icon.svg"
+import ecommerce from "../assets/svg/ecommerce.svg"
+import analysis from "../assets/svg/analysis.svg"
+import banking from "../assets/svg/banking.svg"
+import booking from "../assets/svg/booking.svg"
+import file from "../assets/svg/file.svg"
+import course from "../assets/svg/course.svg"
+import forward_arrow_icon from "../assets/png/forward_arrow_icon.png"
+import account from "../assets/svg/account.svg"
+import hanger from "../assets/svg/hanger.svg"
+import basket from "../assets/svg/basket.svg"
+import invoice from "../assets/svg/invoice.svg"
+import blog from "../assets/svg/blog.svg"
+import job from "../assets/svg/job.svg"
+import tour from "../assets/svg/tour.svg"
 
+import mail from "../assets/svg/mail.svg"
+import chat from "../assets/svg/chat.svg"
+import calendar from "../assets/svg/calendar.svg"
+import kangan from "../assets/svg/kangan.svg"
 
 export const Overview =[
 
     {
-        icon:"/src/assets/svg/app_icon.svg",
+        icon:app_icon,
         title:"App",
         link:"/"
     },
     {
-        icon:"/src/assets/svg/ecommerce.svg",
+        icon:ecommerce,
         title:"Ecommerce",
         link:"/ecommerce"
     },
     {
-        icon:"/src/assets/svg/analysis.svg",
+        icon:analysis,
         title:"Analytics",
         link:"/analytics"
     },
     {
-        icon:"/src/assets/svg/banking.svg",
+        icon:banking,
         title:"Banking",
         link:"/banking"
     },
     {
-        icon:"/src/assets/svg/booking.svg",
+        icon:booking,
         title:"Booking",
         link:"/booking"
     },
     {
-        icon:"/src/assets/svg/file.svg",
+        icon:file,
         title:"File",
         link:"/file"
     },
     {
-        icon:"/src/assets/svg/course.svg",
+        icon:course,
         title:"Course",
         link:"/course"
     },
@@ -45,8 +64,8 @@ export const User =[{title:"Profile"},{title:"Cards"},{title:"List"},{title:"Cre
 export const Management=[
     {
       title:"User",
-      icon:"/src/assets/svg/account.svg",
-      src:"src/assets/png/forward_arrow_icon.png",
+      icon:account,
+      src:forward_arrow_icon,
       submenu:[
         {title:"Profile",link:"/profile"},
         {title:"Cards",link:"/cards"},
@@ -59,8 +78,8 @@ export const Management=[
     },
     {
         title:"Product",
-        icon:"/src/assets/svg/hanger.svg",
-        src:"src/assets/png/forward_arrow_icon.png",
+        icon:hanger,
+        src:forward_arrow_icon,
         submenu:[
             {title:"List",link:"/list"},
             {title:"Details",link:"/details"},
@@ -70,8 +89,8 @@ export const Management=[
     },
     {
         title:"Order",
-        icon:"/src/assets/svg/basket.svg",
-        src:"src/assets/png/forward_arrow_icon.png",
+        icon:basket,
+        src:forward_arrow_icon,
         submenu:[
             {title:"List",link:"/list"},
             {title:"Details",link:"/details"},
@@ -79,8 +98,8 @@ export const Management=[
     },
     {
         title:"Invoice",
-        icon:"/src/assets/svg/invoice.svg",
-        src:"src/assets/png/forward_arrow_icon.png",
+        icon:invoice,
+        src:forward_arrow_icon,
         submenu:[
             {title:"List",link:"/list"},
             {title:"Details",link:"/details"},
@@ -90,8 +109,8 @@ export const Management=[
     },
     {
         title:"Blog",
-        icon:"/src/assets/svg/blog.svg",
-        src:"src/assets/png/forward_arrow_icon.png",
+        icon:blog,
+        src:forward_arrow_icon,
         submenu:[
             {title:"List",link:"/list"},
             {title:"Details",link:"/details"},
@@ -101,8 +120,8 @@ export const Management=[
     },
     {
         title:"Job",
-        icon:"/src/assets/svg/job.svg",
-        src:"src/assets/png/forward_arrow_icon.png",
+        icon:job,
+        src:forward_arrow_icon,
         submenu:[
             {title:"List",link:"/list"},
             {title:"Details",link:"/details"},
@@ -112,8 +131,8 @@ export const Management=[
     },
     {
         title:"Tour",
-        icon:"/src/assets/svg/tour.svg",
-        src:"src/assets/png/forward_arrow_icon.png",
+        icon:tour,
+        src:forward_arrow_icon,
         submenu:[
             {title:"List",link:"/list"},
             {title:"Details",link:"/details"},
@@ -123,27 +142,27 @@ export const Management=[
     },
     {
         title:"File Manager",
-        icon:"/src/assets/svg/file.svg",
+        icon:file,
         link:"/filemanager"
     },
     {
         title:"Mail",
-        icon:"/src/assets/svg/mail.svg",
+        icon:mail,
         link:"/mail"
     },
     {
         title:"Chat",
-        icon:"/src/assets/svg/chat.svg",
+        icon:chat,
         link:"/chats"
     },
     {
         title:"Calender",
-        icon:"/src/assets/svg/calendar.svg",
+        icon:calendar,
         link:"/calender"
     },
     {
         title:"Kanban",
-        icon:"/src/assets/svg/kangan.svg",
+        icon:kangan,
         link:"/kanban"
     },
                    
