@@ -8,8 +8,8 @@ import {useAuth} from "../Login_authentication/AuthContext"
 import login_image from "../../assets/png/Login-img.png"
 import i_icon from "../../assets/png/i_icon.png"
 
-const USERNAME = "minimals";
-const PASSWORD = "2Minimal";
+const USERNAME = "demo@minimals.cc";
+const PASSWORD = "@2Minimal";
 
 const Login = () => {
 
