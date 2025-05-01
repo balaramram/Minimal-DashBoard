@@ -1,0 +1,150 @@
+
+
+export const Overview =[
+
+    {
+        icon:"/src/assets/svg/app_icon.svg",
+        title:"App",
+        link:"/"
+    },
+    {
+        icon:"/src/assets/svg/ecommerce.svg",
+        title:"Ecommerce",
+        link:"/ecommerce"
+    },
+    {
+        icon:"/src/assets/svg/analysis.svg",
+        title:"Analytics",
+        link:"/analytics"
+    },
+    {
+        icon:"/src/assets/svg/banking.svg",
+        title:"Banking",
+        link:"/banking"
+    },
+    {
+        icon:"/src/assets/svg/booking.svg",
+        title:"Booking",
+        link:"/booking"
+    },
+    {
+        icon:"/src/assets/svg/file.svg",
+        title:"File",
+        link:"/file"
+    },
+    {
+        icon:"/src/assets/svg/course.svg",
+        title:"Course",
+        link:"/course"
+    },
+    
+]
+
+export const User =[{title:"Profile"},{title:"Cards"},{title:"List"},{title:"Create"},{title:"Edit"},{title:"Account"}] 
+
+export const Management=[
+    {
+      title:"User",
+      icon:"/src/assets/svg/account.svg",
+      src:"src/assets/png/forward_arrow_icon.png",
+      submenu:[
+        {title:"Profile",link:"/profile"},
+        {title:"Cards",link:"/cards"},
+        {title:"List",link:"/list"},
+        {title:"Create",link:"/create"},
+        {title:"Edit",link:"/edit"},
+        {title:"Account",link:"/account"}],
+      
+      src2:"right_arrow"
+    },
+    {
+        title:"Product",
+        icon:"/src/assets/svg/hanger.svg",
+        src:"src/assets/png/forward_arrow_icon.png",
+        submenu:[
+            {title:"List",link:"/list"},
+            {title:"Details",link:"/details"},
+            {title:"Create",link:"/create"},
+            {title:"Edit",link:"/edit"},
+        ]
+    },
+    {
+        title:"Order",
+        icon:"/src/assets/svg/basket.svg",
+        src:"src/assets/png/forward_arrow_icon.png",
+        submenu:[
+            {title:"List",link:"/list"},
+            {title:"Details",link:"/details"},
+        ]
+    },
+    {
+        title:"Invoice",
+        icon:"/src/assets/svg/invoice.svg",
+        src:"src/assets/png/forward_arrow_icon.png",
+        submenu:[
+            {title:"List",link:"/list"},
+            {title:"Details",link:"/details"},
+            {title:"Create",link:"/create"},
+            {title:"Edit",link:"/edit"},
+        ]
+    },
+    {
+        title:"Blog",
+        icon:"/src/assets/svg/blog.svg",
+        src:"src/assets/png/forward_arrow_icon.png",
+        submenu:[
+            {title:"List",link:"/list"},
+            {title:"Details",link:"/details"},
+            {title:"Create",link:"/create"},
+            {title:"Edit",link:"/edit"},
+        ]
+    },
+    {
+        title:"Job",
+        icon:"/src/assets/svg/job.svg",
+        src:"src/assets/png/forward_arrow_icon.png",
+        submenu:[
+            {title:"List",link:"/list"},
+            {title:"Details",link:"/details"},
+            {title:"Create",link:"/create"},
+            {title:"Edit",link:"/edit"},
+        ]
+    },
+    {
+        title:"Tour",
+        icon:"/src/assets/svg/tour.svg",
+        src:"src/assets/png/forward_arrow_icon.png",
+        submenu:[
+            {title:"List",link:"/list"},
+            {title:"Details",link:"/details"},
+            {title:"Create",link:"/create"},
+            {title:"Edit",link:"/edit"},
+        ]
+    },
+    {
+        title:"File Manager",
+        icon:"/src/assets/svg/file.svg",
+        link:"/filemanager"
+    },
+    {
+        title:"Mail",
+        icon:"/src/assets/svg/mail.svg",
+        link:"/mail"
+    },
+    {
+        title:"Chat",
+        icon:"/src/assets/svg/chat.svg",
+        link:"/chats"
+    },
+    {
+        title:"Calender",
+        icon:"/src/assets/svg/calendar.svg",
+        link:"/calender"
+    },
+    {
+        title:"Kanban",
+        icon:"/src/assets/svg/kangan.svg",
+        link:"/kanban"
+    },
+                   
+]
