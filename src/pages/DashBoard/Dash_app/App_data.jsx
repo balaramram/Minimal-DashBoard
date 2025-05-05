@@ -23,14 +23,14 @@ import {Table_content} from "../../../constant/Graph_data"
 const App_data = () => {
   return (
     <div>
-      <div className="grid xl:grid-rows-3 h-full">
+      <div className="grid xl:grid-rows-3 h-full gap-5 md:gap-0">
         <div className="row-span-2 grid xl:grid-cols-3 gap-5">
 
-           <div className="col-span-2 flex flex-col justify-center py-5 gap-7 bg-white shadow-md w-full h-max rounded-2xl">
+           <div className="col-span-2 flex flex-col justify-center py-5 gap-7 bg-white shadow-md w-screen md:w-full h-max rounded-2xl">
             <p className="ps-5 font-medium text-xl">New invoice</p>
             <table className="flex gap-5 flex-col justify-between">
               <thead>
-                <tr className="flex bg-gray-500/10 py-5 gap-25 justify- px-5 w-full">
+                <tr className="flex bg-gray-500/10 py-5 md:gap-25 md:px-5 w-screen md:w-full">
                   <th className="w-20">Invoice ID</th>
                   <th className="w-20">Category</th>
                   <th className="w-20">Price</th>
@@ -50,7 +50,7 @@ const App_data = () => {
             </table>
            </div>
 
-           <div className=" bg-white shadow-md w-full h-max rounded-2xl">
+           <div className=" bg-white shadow-md w-screen md:w-full h-max rounded-2xl">
               <p className="m-8 font-medium text-xl">Related applications</p>
               <div className="flex justify-between px-5 bg-gray-500/10  py-2">
                 <button className="focus:bg-white focus:text-black text-gray-500 font font-medium py-2 px-3 rounded-xl duration-300">Top 7 days</button>
@@ -68,7 +68,7 @@ const App_data = () => {
         <div className="row-span-1 gap-5 grid xl:grid-cols-3">
 
 
-           <div className="bg-white shadow-md w-full h-full rounded-2xl flex flex-col justify-between p-5">
+           <div className="bg-white shadow-md w-screen md:w-full h-full rounded-2xl flex flex-col justify-between p-5">
             <p>Top installed countries</p>
             <Top_installed_countries contry_flag={germany_flag} contry_name="Germany" android_count="9.91k" windows_count="1.95k" apple_count="9.12k" />
             <Top_installed_countries contry_flag={england_flag} contry_name="England" android_count="1.95k" windows_count="9.12k" apple_count="6.98k" />
@@ -79,7 +79,7 @@ const App_data = () => {
            </div>
 
 
-           <div className=" p-5 flex flex-col gap-5 justify-between bg-white shadow-md w-full h-full rounded-2xl">
+           <div className=" p-5 flex flex-col gap-5 justify-between bg-white shadow-md w-screen md:w-full h-full rounded-2xl">
             <p className="font-medium text-xl ">Top authors</p>
             <Top_author user_name="Jayvion Simon" user_profile={user_2} like_count="9.91k" trophy={green_trophy} />
             <Top_author user_name="Deja Brady" user_profile={user_3} like_count="9.12k" trophy={blue_trophy} />

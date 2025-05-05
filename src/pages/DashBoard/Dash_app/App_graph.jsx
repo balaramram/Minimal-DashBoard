@@ -24,7 +24,7 @@ const App_graph = () => {
 
         <div className="row-span-2 lg:grid lg:grid-cols-3 gap-8 h-max w-full">
 
-          <div className="shadow-md p-6 h-full w-full rounded-2xl">
+          <div className="shadow-md p-6 h-full w-screen md:w-full rounded-2xl">
             <div>
               <p className="font-medium text-xl font-cust">Current downlod</p>
               <p className="text-gray-600 text-sm">Downloaded by operating system</p>
@@ -41,7 +41,7 @@ const App_graph = () => {
             </PieChart>
           </div>
 
-          <div className="col-span-2 pb-2 shadow-md h-full w-full rounded-2xl">
+          <div className="col-span-2 pb-2 shadow-md md:h-full h-max w-screen md:w-full rounded-2xl">
             <div className="flex justify-between p-5">
               <div>
                 <p className="font-medium text-xl">Area installed</p>

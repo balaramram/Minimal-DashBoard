@@ -2,7 +2,7 @@ import {BarChart,Bar,Tooltip,ResponsiveContainer} from 'recharts'
 
  export const Total = ({title,value,percentage,graph_data,graph_color}) =>{
     return(
-          <div className="flex justify-between items-center shadow-md h-full w-full rounded-2xl p-6">
+          <div className="flex justify-between items-center shadow-md h-full w-screen md:w-full rounded-2xl p-6">
             <div className="flex flex-col gap-3">
               <p className="font-medium">{title}</p>
               <p className="font-bold text-xl">{value}</p>

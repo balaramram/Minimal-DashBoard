@@ -35,7 +35,7 @@ export const Team =({icon,name,onClick,className})=>{
 
 export const Main =({image , title , description ,buttonName})=> { 
     return(
-         <div className="bg-cover bg-center col-span-2 w-full md:w-full xl:w-full xl:h-80 rounded-2xl text-white justify-center flex flex-col gap-5 p-10 xl:p-0 xl:ps-10"style={{backgroundImage:`url(${image})`}}>
+         <div className="bg-cover bg-center col-span-2 w-screen md:w-full xl:w-full xl:h-80 rounded-2xl text-white justify-center flex flex-col gap-5 p-10 xl:p-0 xl:ps-10"style={{backgroundImage:`url(${image})`}}>
               {/* <img src="/src/assets/images/siddhant.jpg" /> */}
                 <p className="text-2xl font-bold w-60">{title}</p>
                 <p className="font-medium text-sm text-gray-400 xl:w-90">{description}</p>
@@ -100,14 +100,14 @@ export const Top_author = ({user_profile,user_name,like_count,trophy}) => {
 
 export const Top_installed_countries = ({contry_flag,contry_name,android_count,windows_count,apple_count}) => {
     return(
-        <div className="flex justify-between items-center font-medium text-sm w-100 xl:w-full text-gray-500">
+        <div className="flex justify-between items-center font-medium text-sm md:w-full text-gray-500 overflow-hidden">
             <div className="flex items-center gap-2 w-22">
-                <img className="size-6" src={contry_flag}/>
+                <img className="size-3 md:size-6" src={contry_flag}/>
                 <p className="">{contry_name}</p>
             </div>
             
             <div className="flex items-center gap-2">
-                <img className="size-3 invert-50" src={android} /><p>{android_count}</p>
+                <img className="size-3 invert-50" src={android} /><p className="text-xs md:text-md">{android_count}</p>
             </div>
             
             <div className="flex items-center gap-2">

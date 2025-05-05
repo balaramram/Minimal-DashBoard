@@ -30,18 +30,17 @@ const NavBar = () => {
   return (
     <OutsideClickHandler onOutsideClick={() => setIsOpen(false)}>
     <div>
-      <div className={`bg-gray-50/45 py-3 fixed flex justify-between items-center w-screen px-5 xl:transition-all xl:duration-300 z-50 ${isExpanded ?"xl:w-305 ms-5":"xl:w-361 ms-2"} `}>
+      <div className={`bg-gray-50/45 py-3 fixed flex justify-between items-center w-screen px-5 xl:transition-all xl:duration-300 z-50 ${isExpanded ?"xl:w-305 xl:ms-5":"xl:w-361 xl:ms-2"} `}>
         
         <div>
           <Team className={`${isOpen.team?"bg-gray-50/45 px-1 rounded-md":"focus:bg-gray-200/0  px-1"}`} onClick={()=>{toggleSection("team")}} name="Team 1" icon={N_icon} />
 
-          {/* {isOpen.team && ( */}
           <div className={`absolute mt-2 rounded-lg flex flex-col bg-gradient-to-bl from-sky-100 via-white to-red-100 overflow-hidden transition-all duration-300 ${isOpen.team ? "h-max  p-2" : "h-0"}`}>
             <Team className="gap-15 focus:bg-gray-200 hover:bg-gray-50 py-2 px-3 rounded-lg" name="Team 2" icon={N_icon}/>
             <Team className="gap-15 focus:bg-gray-200 hover:bg-gray-50 py-2 px-3 rounded-lg" name="Team 2" icon={N_icon}/>
             <Team className="gap-15 focus:bg-gray-200 hover:bg-gray-50 py-2 px-3 rounded-lg" name="Team 2" icon={N_icon}/>
           </div>
-          {/* )} */}
+          
         </div>
 
         <div className="flex gap-5">

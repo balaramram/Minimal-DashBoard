@@ -9,11 +9,12 @@ const Layout = () => {
     const { isExpanded, toggleSidebar } = useSidebar();
 
   return (
-    <div className="flex ">
-      <SlideBar />
-      <div className={` flex-1 transition-all duration-300 ${isExpanded?"xl:ml-70":"xl:ml-18"}`}>
+    <div className="flex w-screen">
+      <div className="z-50"><SlideBar /></div>
+      
+      <div className={` md:flex-1 transition-all duration-300 ${isExpanded?"lg:ml-70":"md:ml-11 lg:ml-18"}`}>
         <NavBar />
-        <main className="absolute p-10 xl:mt-10"><Outlet /></main>
+        <main className="lg:absolute md:p-10 mt-10"><Outlet /></main>
       </div>
     </div>
   );

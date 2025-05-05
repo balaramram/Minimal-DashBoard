@@ -26,7 +26,7 @@ const DashApp = () => {
 
 
   return (
-    <div className="flex flex-col lg:gap-20">
+    <div className="flex flex-col lg:gap-20 w-screen md:w-full gap-5">
     
     <div className="lg:grid lg:grid-cols-3 gap-2 justify-between">
 
@@ -44,7 +44,7 @@ const DashApp = () => {
 
     <div className="">
       <App_graph />
-    <App_data />
+      <App_data />
     </div>
 
     

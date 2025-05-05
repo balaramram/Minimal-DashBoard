@@ -26,9 +26,9 @@ const SideBar = () => {
   };
 
   return (
-    <div className="">
-      <div className={`shadow fixed h-screen flex flex-col justify-between transition-all duration-300 ${isExpanded ? "w-75 px-4" : "w-20 px-2"} overflow-hidden`}>
-        <div className="flex flex-col h-full justify-between overflow-y-auto py-10 scrollbar-hide">
+    <div className="hidden md:block">
+      <div className={`bg-white shadow fixed h-screen flex flex-col justify-between transition-all duration-300 ${isExpanded ? " w-75 px-4" : "w-20 px-2"} overflow-hidden`}>
+        <div className="flex flex-col h-full justify-between overflow-y-auto py-10 scrollbar-hide ">
         <div className="flex flex-col gap-5">
           
           <div className="flex items-center justify-between">
